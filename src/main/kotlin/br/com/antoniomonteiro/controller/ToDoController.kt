@@ -3,7 +3,7 @@ package br.com.antoniomonteiro.controller
 import io.micronaut.http.MediaType
 import io.micronaut.http.annotation.*
 
-@Controller("/todo")
+@Controller("/to-do")
 class ToDoController {
 
     @Get("/{id}")
