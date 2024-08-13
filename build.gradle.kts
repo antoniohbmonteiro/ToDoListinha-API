@@ -37,6 +37,7 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.assertj:assertj-core")
     testImplementation("org.mockito:mockito-core")
+    implementation("io.micronaut.flyway:micronaut-flyway")
 }
 
 
