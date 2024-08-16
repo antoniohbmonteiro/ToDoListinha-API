@@ -29,6 +29,8 @@ dependencies {
     implementation("io.micronaut.sql:micronaut-jdbc-hikari")
     implementation("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}")
+    implementation("io.micronaut.security:micronaut-security-oauth2")
+    implementation("io.micronaut.security:micronaut-security-jwt")
     compileOnly("io.micronaut:micronaut-http-client")
     compileOnly("io.micronaut.openapi:micronaut-openapi-annotations")
     runtimeOnly("ch.qos.logback:logback-classic")
@@ -37,7 +39,10 @@ dependencies {
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation("org.assertj:assertj-core")
     testImplementation("org.mockito:mockito-core")
-    implementation("io.micronaut.flyway:micronaut-flyway")
+//    implementation("io.micronaut.flyway:micronaut-flyway")
+//    implementation("org.flywaydb:flyway-core:9.0.4")
+
+
 }
 
 

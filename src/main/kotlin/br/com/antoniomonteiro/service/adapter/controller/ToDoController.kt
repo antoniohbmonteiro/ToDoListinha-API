@@ -1,4 +1,4 @@
-package br.com.antoniomonteiro.controller
+package br.com.antoniomonteiro.service.adapter.controller
 
 import io.micronaut.http.MediaType
 import io.micronaut.http.annotation.*
